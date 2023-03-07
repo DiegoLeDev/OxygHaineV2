@@ -1,0 +1,178 @@
+body {
+    background: linear-gradient(rgb(200, 200, 254), white);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.main { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgb(136, 170, 188);
+}
+
+.sidebar2 {
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgb(136, 170, 188);
+}
+
+.footer{    
+    display: flex;
+    background-color: rgb(136, 170, 188);
+    text-align: center;
+    align-self: flex-end;   
+}
+
+.content {
+    text-align: center;
+}
+.container {
+    display: flex;
+}
+
+.mainname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:x-large
+}
+
+.container2 {
+    border: 5px;
+    border-style: solid;
+    border-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.nom {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.prix1{
+    text-align: center;
+    flex-basis: 45%;
+    border-style: solid;
+    border-color: black;
+}
+
+.Europe {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top: 20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 120px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.Asie {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20%;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: auto;
+    width: auto;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.Afrique {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 120px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
