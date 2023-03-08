@@ -31,7 +31,7 @@ body {
     display: flex;
     justify-self: center;
     background-color: rgb(136, 170, 188);
-    text-align: justify;
+    justify-content: center;
 }
 
 .content {
